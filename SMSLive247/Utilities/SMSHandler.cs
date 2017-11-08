@@ -7,6 +7,40 @@ using System.Threading.Tasks;
 
 namespace SMSLive247.Utilities
 {
+    ///---------------------------------------------------------------------------------------------
+    /// <summary>
+    ///   SMSHandler is a class file that integrate into SMSlive247 for send sms using http
+    /// </summary>
+    /// <copyright>
+    /// *****************************************************************************
+    ///     ----- Fadipe Wasiu Ayobami . All Rights Reserved. Copyright (c) 2017
+    /// *****************************************************************************
+    /// </copyright>
+    /// <remarks>
+    /// *****************************************************************************
+    ///     ---- Created For: Public Use (All Products)
+    ///     ---- Created By: Fadipe Wasiu Ayobami
+    ///     ---- Original Language: C#
+    ///     ---- Current Version: v1.0.0.0.1
+    ///     ---- Current Language: C#
+    /// *****************************************************************************
+    /// </remarks>
+    /// <history>
+    /// *****************************************************************************
+    ///     --- Date First Created : 08 - 11 - 2017
+    ///     --- Author: Fadipe Wasiu Ayobami
+    ///     --- Date First Reviewed: 
+    ///     --- Date Last Reviewed:
+    /// *****************************************************************************
+    /// </history>
+    /// <usage>
+    /// initiate the SMSHandler.SendBulkSMSUsingSMSLive247
+    /// then pass in the Receiptent phone number nad message
+    /// 
+    /// -- Fadipe Wasiu Ayobami
+    /// </usage>
+    /// ----------------------------------------------------------------------------------------------
+    /// 
     public static class SMSHandler
     {
         public static Boolean SendBulkSMSUsingSMSLive247(string smsRecipient, string message)
